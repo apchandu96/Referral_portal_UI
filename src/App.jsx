@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage';
 import RegistrationPage from './pages/RegistrationPage';
 import DashboardPage from './pages/DashboardPage';
 import SearchPage from './pages/SearchPage';
+import HomePage from './pages/HomePage';
 import ProfilePage from './pages/ProfilePage';
 import ReferrerDetailsPage from './pages/ReferrerDetailsPage';
 import RequestFormPage from './pages/RequestFormPage';
@@ -20,7 +21,7 @@ export default function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Navigate to="/login" replace />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegistrationPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />

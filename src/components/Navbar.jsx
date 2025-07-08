@@ -17,6 +17,9 @@ export default function Navbar() {
           </div>
           {/* Links */}
           <div className="hidden md:flex space-x-4">
+            <NavLink to="/" className={linkClass}>
+            Home
+            </NavLink>
             <NavLink to="/dashboard" className={linkClass}>
               Dashboard
             </NavLink>
