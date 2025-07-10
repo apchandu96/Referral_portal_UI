@@ -11,6 +11,7 @@ import ProfilePage from './pages/ProfilePage';
 import ReferrerDetailsPage from './pages/ReferrerDetailsPage';
 import RequestFormPage from './pages/RequestFormPage';
 import Navbar from './components/Navbar';
+import ProviderRegistrationPage from './pages/ProviderRegistartionPage';
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegistrationPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/provider-registration" element={<ProviderRegistrationPage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/referrer/:id" element={<ReferrerDetailsPage />} />

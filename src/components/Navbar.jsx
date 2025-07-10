@@ -35,6 +35,9 @@ export default function Navbar() {
             <NavLink to="/register" className={linkClass}>
               Register
             </NavLink>
+            <NavLink to="/provider-registration" className={linkClass}>
+              Provider Registration 
+            </NavLink>
           </div>
         </div>
       </div>
